@@ -10,6 +10,7 @@ import PoweredBy from './components/layout/PoweredBy';
 import './App.css';
 
 function App() {
+  //TODO: Remove span tags. Use useRef instead.
   return (
     <div>
       <span id='home'></span>
