@@ -4,7 +4,6 @@ import SongRow from './SongRow';
 export default function SongList(props) {
   // Map through the songs
   const songs = props.songs;
-  // console.log('[SONG LIST]', songs);
   let i = 0;
   const songNode = songs.map((song) => {
     i++;

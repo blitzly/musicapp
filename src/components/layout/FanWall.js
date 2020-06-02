@@ -10,12 +10,10 @@ function FanWall() {
         backgroundImage: `url(${Background})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '0% 45%',
-        // backgroundSize: 'cover'
       }}
     >
       <div className='container'>
         <div className='fan-pic'>
-          {/* <img src='https://i.pravatar.cc/200' alt='Fan Wall' /> */}
           <img src={TestimonialPict1} alt='Fan Wall' />
         </div>
         <div id='fan-comment-container'>

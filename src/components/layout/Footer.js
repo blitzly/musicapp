@@ -78,7 +78,7 @@ function Footer() {
           {/* <h5 className='phone'>
             <FontAwesomeIcon icon={faChevronRight} /> Phone
           </h5>
-          <a href='tel:+13179228440'>+1 317-922-8440</a> */}
+          <a href='tel:'>+1 123-4567-9900</a> */}
         </div>
         <div className='subscribe'>
           <h2>Subscribe</h2>

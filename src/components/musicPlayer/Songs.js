@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MusicPlayer from './MusicPlayer';
 import SongCategory from './SongCategory';
-// import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './MusicPlayer.css';
 
 class Songs extends Component {
@@ -178,7 +177,6 @@ class Songs extends Component {
   }
 
   handleControlsClick = (action) => {
-    //let curArrIndex = this.state.arrIndex;s
     let nextArrIndex = this.state.arrIndex + 1;
     let prevArrIndex = this.state.arrIndex - 1;
 
@@ -293,7 +291,6 @@ class Songs extends Component {
         return song.songs;
       });
 
-    // console.log('[HANDLE CATEGORY CLICK] songFile');
     this.pauseSong();
     this.setState({
       curCategoryId: catId,
@@ -335,7 +332,6 @@ class Songs extends Component {
         pauseSong={() => this.pauseSong()}
         playing={this.state.playing}
         minuteTimer={this.state.minuteTimer}
-        // currentSongID={this.state.categories[this.state.curCategoryId].songs[0]}
         catImageAsSongImage
       />
     );

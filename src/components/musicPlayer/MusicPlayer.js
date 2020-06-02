@@ -5,15 +5,7 @@ import SongList from './SongList';
 
 function MusicPlayer(props) {
   const curSong = props.getCurrentSong(props.catId, props.songId);
-  // console.log(
-  //   '[MUSIC PLAYER] getCurrentSong',
-  //   props.getCurrentSong(props.catId, props.songId)
-  // );
-  // console.log(
-  //   '[CURRENT SONG - MUSIC PLAYER]',
-  //   props.getCurrentSong(props.songId, props.songs)
-  // );
-  //THE ERROR COMES FROM THIS VAR: props.songId
+
   return (
     <div>
       {/* <h2>{props.catName}</h2> */}

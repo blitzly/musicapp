@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function SongInfo(props) {
   const song = props.song;
-  // console.log('[SONG_INFO] song array: ', song);
   const songImage = props.catImageAsSongImage ? props.catImage : song.songImg;
   return (
     <div id='mp-header-container'>

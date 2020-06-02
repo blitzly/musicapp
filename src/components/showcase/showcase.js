@@ -4,7 +4,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Background from '../../assets/img/luisaldrey_miami.jpg';
 
 function showcase() {
-  // let imgUrl = '/img/luisaldrey_miami.jpg';
   return (
     <section
       className='showcase'
@@ -12,7 +11,6 @@ function showcase() {
         backgroundImage: `url(${Background})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '0 105%',
-        // backgroundSize: 'cover'
       }}
     >
       <div className='container'>

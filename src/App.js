@@ -1,5 +1,4 @@
 import React from 'react';
-// import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Navbar from './components/layout/Navbar/Navbar';
 import Showcase from './components/showcase/showcase';
 import Songs from './components/musicPlayer/Songs';
