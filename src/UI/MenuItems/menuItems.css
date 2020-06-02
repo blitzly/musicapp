@@ -1,0 +1,17 @@
+.menuItems {
+  box-sizing: border-box;
+}
+
+.menuItems a {
+  font-size: 1.8rem;
+}
+
+.menuItems a:hover {
+  color: var(--text-primary);
+}
+
+.menuItems li {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 10px;
+}

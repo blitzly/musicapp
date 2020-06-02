@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--showcase-bg-color);
+  border-bottom: var(--secondary-color) solid 1px;
+  margin: 0 auto;
+  height: 60px;
+}
+.navbar .logo {
+  width: 250px;
+}
+.navbar i {
+  color: var(--text-primary);
+}
+
+.navbar .toggleMenu {
+  padding: 10px;
+  cursor: pointer;
+  z-index: 20001;
+}
