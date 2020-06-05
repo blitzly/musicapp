@@ -3,7 +3,7 @@ import React from 'react';
 function PoweredBy() {
   return (
     <div className='powered-by'>
-      Powered by &nbsp; <a href='http://www.avantisoft.co'>Avantisoft &copy;</a>
+      &copy; Copyright 2020 - Luis Aldrey
     </div>
   );
 }

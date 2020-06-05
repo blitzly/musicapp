@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/layout/Navbar/Navbar';
-import Showcase from './components/showcase/showcase';
-import Songs from './components/musicPlayer/Songs';
+import Showcase from './components/Showcase/Showcase';
+import Songs from './components/MusicPlayer/Songs';
 // import IgShows from './components/layout/IgShows';
 import FanWall from './components/layout/FanWall';
 // import Venues from './components/layout/Venues';

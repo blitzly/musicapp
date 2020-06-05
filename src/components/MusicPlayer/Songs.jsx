@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MusicPlayer from './MusicPlayer';
 import SongCategory from './SongCategory';
-import './MusicPlayer.css';
+import './MusicPlayer.scss';
 
 class Songs extends Component {
   state = {
@@ -339,17 +339,19 @@ class Songs extends Component {
     //   musicPlayer = <h3>No songs for this category</h3>;
     // }
     return (
-      <section className='songs'>
-        <div className='music-player-container'>
-          <div className='categories'>
-            <SongCategory
-              categories={this.state.categories}
-              clicked={this.onClickCategory}
-            />
-          </div>
-          <div className='music-player'>{musicPlayer}</div>
-        </div>
-      </section>
+        <section className='songs'>
+            <div className="container">
+                <div className='music-player-container'>
+                    <div className='categories'>
+                        <SongCategory
+                        categories={this.state.categories}
+                        clicked={this.onClickCategory}
+                        />
+                    </div>
+                    <div className='music-player'>{musicPlayer}</div>
+                </div>
+            </div>
+        </section>
     );
   }
 }
