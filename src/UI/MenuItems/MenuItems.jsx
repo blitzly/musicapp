@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuItem from './MenuItem/MenuItem';
-import './menuItems.css';
+import './MenuItems.scss';
 
 function MenuItems(props) {
   const items = props.items.map((item, id) => {

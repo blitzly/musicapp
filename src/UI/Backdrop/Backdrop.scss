@@ -14,3 +14,8 @@
   color: white;
   overflow: hidden;
 }
+
+// Locks the body from scrolling when nav overlay is open
+body.backdrop-open {
+    overflow: hidden;
+}
